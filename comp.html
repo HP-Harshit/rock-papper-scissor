@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="icon" href="icons.jpg" type="image">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://randojs.com/1.0.0.js"></script>
+    
+</head>
+<body class="game">
+    <div class="main">
+        <div class="rnd">
+            <img src="icons.jpg" alt="" class="icon">
+        </div>
+        <div class="slct" id="dcl">
+            <!-- BUG -->
+            <img src="R.png" alt="" class="rock" onclick="show1()">
+            <img src="P.png" alt="" class="ppr" onclick="show2()">
+            <img src="S.png" alt="" class="scsr" onclick="show3()">
+        </div>
+        <div class="scr">
+            <div class="plr">
+                <p>you</p>
+                <!-- <img src="" alt="" class="scr0"> -->
+                <img src="icons.jpg" alt="" class="scr1">
+                <img src="icons.jpg" alt="" class="scr2">
+                <img src="icons.jpg" alt="" class="scr3">
+                <img src="icons.jpg" alt="" class="scr4">
+                <img src="icons.jpg" alt="" class="scr5">
+            </div>
+            <div class="comp">
+                <p>comp</p>
+                <!-- <img src="" alt="" class="scr00"> -->
+                <img src="icons.jpg" alt="" class="scr11">
+                <img src="icons.jpg" alt="" class="scr22">
+                <img src="icons.jpg" alt="" class="scr33">
+                <img src="icons.jpg" alt="" class="scr44">
+                <img src="icons.jpg" alt="" class="scr55">
+            </div>
+        </div>
+        <div class="brd">
+
+            <div id="myNumber"></div>
+            
+            <p class="btn" onClick="window.location.reload();">Restart</p>
+
+            <div id="myNumber1"></div>
+
+        </div>
+    </div>
+
+    <!-- <button onclick="showRandomNumber();">click</button>
+        <div id="myNumber"></div> -->
+
+
+        <footer>&copycopyright all right reserve. bug-creator</footer>
+
+
+    <script src="script.js" async></script>
+    
+</body>
+</html>

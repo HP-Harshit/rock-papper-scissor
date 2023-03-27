@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.index{
+    background-image: url(rps.jpg);
+    background-size: cover;
+}
+
+.game{
+    background-image: url(rps2.jpg);
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.usr-wlc{
+    color: rgb(68, 160, 255);
+    width: 85%;
+    line-height: 30px;
+    padding-left: 50px;
+    margin-bottom: 60px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.usr-link{
+    background: #192133;
+    height: 5vh;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.usr-link:hover{
+    background: linear-gradient(to right, #192133 70%, rgba(21, 110, 236, 0));
+    cursor: pointer;
+    color: rgb(68, 160, 255);
+    font-size: 20px;
+}
+
+
+#myNumber{
+    font-size:100px;
+    text-align:center;
+    margin:50px auto;
+    font-family:Arial, sans-serif;
+}
+
+@media (max-width: 1024px) and (min-width: 10px) {
+    .index{
+        background-image: url(rps.jpg);
+        background-size: contain;
+        background-repeat: round;
+    }
+    
+    .game{
+        background-image: url(rps2.jpg);
+        background-size: contain;
+        background-repeat: round;
+    }
+}
+
+
+            /* One Player */
+
+.rnd{
+    height: 24%;
+    width: 24%;
+    overflow: hidden;
+}
+
+.rnd img{
+    border-radius: 50px;
+    height: 130px;
+}
+
+.slct{
+    height: 20%;
+    margin: 20px;
+}
+
+.slct img{
+    height: 100px;
+    margin: 14px;
+}
+
+.slct img:hover{
+    cursor: pointer;
+}
+
+.scr{
+    height: 20%;
+    width: 55%;
+    background: #fff;
+}
+
+.plr{
+    height: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plr p{
+    width: 15%;
+    border: 1px solid black;
+}
+
+.plr img{
+    width: 17%;
+    height: 95%;
+    border: 1px solid black;
+}
+
+.comp{
+    height: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.comp p{
+    width: 15%;
+    border: 1px solid black;
+}
+
+.comp img{
+    width: 17%;
+    height: 95%;
+    border: 1px solid black;
+}
+
+
+
+.brd{
+    height: 8%;
+    width: 55%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.para, #myNumber, #myNumber1{
+    width: 30%;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+}
+
+
+.btn{
+    width: 35%;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    background: rgb(68, 160, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#dcl{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #525050;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 15px;
+    opacity: 0.8;
+    color: white;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    bottom: 0;
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 10px) {
+    .plr{
+        height: 49%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .plr p{
+        width: 15%;
+        border: 1px solid black;
+    }
+    
+    .plr img{
+        width: 17%;
+        height: 95%;
+        border: 1px solid black;
+    }
+    
+    .comp{
+        height: 49%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .comp p{
+        width: 15%;
+        border: 1px solid black;
+    }
+    
+    .comp img{
+        width: 17%;
+        height: 95%;
+        border: 1px solid black;
+    }
+    #dcl{
+        width: 70%;
+    }
+} 
+
+
