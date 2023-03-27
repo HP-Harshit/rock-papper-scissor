@@ -173,15 +173,15 @@ function show2(){
      p = 2;
     i++;
      if(i==1)
-    document.getElementsByClassName("scr1")[0].src = "p.png";
+    document.getElementsByClassName("scr1")[0].src = "P.png";
     else if(i==2)
-    document.getElementsByClassName("scr2")[0].src = "p.png";
+    document.getElementsByClassName("scr2")[0].src = "P.png";
     else if(i==3)
-    document.getElementsByClassName("scr3")[0].src = "p.png";
+    document.getElementsByClassName("scr3")[0].src = "P.png";
     else if(i==4)
-    document.getElementsByClassName("scr4")[0].src = "p.png";
+    document.getElementsByClassName("scr4")[0].src = "P.png";
     else if(i==5){
-    document.getElementsByClassName("scr5")[0].src = "p.png";
+    document.getElementsByClassName("scr5")[0].src = "P.png";
     i=0;
     }
     showRandomNumber();
@@ -190,19 +190,20 @@ function show3(){
      p = 3;
     i++;
      if(i==1)
-    document.getElementsByClassName("scr1")[0].src = "s.png";
+    document.getElementsByClassName("scr1")[0].src = "S.png";
     else if(i==2)
-    document.getElementsByClassName("scr2")[0].src = "s.png";
+    document.getElementsByClassName("scr2")[0].src = "S.png";
     else if(i==3)
-    document.getElementsByClassName("scr3")[0].src = "s.png";
+    document.getElementsByClassName("scr3")[0].src = "S.png";
     else if(i==4)
-    document.getElementsByClassName("scr4")[0].src = "s.png";
+    document.getElementsByClassName("scr4")[0].src = "S.png";
     else if(i==5){
-    document.getElementsByClassName("scr5")[0].src = "s.png";
+    document.getElementsByClassName("scr5")[0].src = "S.png";
     i=0;
     }
     showRandomNumber();
 }
+
 
 
 
